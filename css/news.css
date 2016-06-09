@@ -1,0 +1,98 @@
+/* bootstrap 3 helpers */
+
+
+/* end */
+
+/* custom theme */
+
+
+
+@media (min-width: 979px) {
+  #sidebar.affix-top {
+      position: static;
+  }
+  
+  #sidebar.affix {
+      position: fixed;
+      top: 0;
+      width:21.2%;
+  }
+}
+
+.affix,.affix-top {
+   position:static;
+}
+
+/* theme */
+
+#sidebar a{
+    color: #0D7111;
+}
+
+.highlight-bk {
+    background-color:#ff3333;
+    padding:1px;
+    width:100%;
+}
+
+.highlight {
+	color:#000;
+}
+  
+h3.highlight  {
+    padding-top:13px;
+    padding-bottom:14px;
+    border-bottom:2px solid #000;
+}
+
+
+.accordion-group {
+	border-width:0;
+}
+
+.dropdown-menu {
+	min-width: 250px;
+}
+
+
+
+.caret {
+	color:#fff;
+}
+
+
+.panel {
+    padding-left:27px;
+    padding-right:27px;
+}
+
+.panel img{
+    margin: auto;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    line-height: 0.9;
+    text-align: center;
+}
+
+.newsline {
+	border-top: 2px solid #0D7111;
+	height: 10px;
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.newstext {
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 14px;
+line-height: 1.42857143;
+color: #333;
+}
+/* end theme */
